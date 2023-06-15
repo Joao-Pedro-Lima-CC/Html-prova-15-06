@@ -1,0 +1,362 @@
+* {
+    font-family: Segoe UI;
+}
+
+body {
+    margin: 0;
+    color: #FFF;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    background-color: #444;
+    justify-content: flex-start;
+}
+
+.card {
+    border-radius: 16px;
+    margin-right: 2%;
+    margin-left: 3.5%;
+    margin-top: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    
+}
+
+/*Cores do card*/
+#valorant:hover {
+    background-image: linear-gradient(#3c31a3, #0c052e);
+}
+#csgo:hover {
+    background-image: linear-gradient(#878d2fb7, #3b4101);
+}
+#cod:hover {
+    background-image: linear-gradient(#03800a88, #001302);
+}
+#overwatch:hover {
+    background-image: linear-gradient(#f79e39f5, #854912);
+}
+#lol:hover {
+    background-image: linear-gradient(#4bcdee93, #053b6dd3);
+}
+#dota:hover {
+    background-image: linear-gradient(#d33434d7, #7e0a0ace);
+}
+#smite:hover {
+    background-image: linear-gradient(#f79e39f5, #854912);
+}
+#hots:hover {
+    background-image: linear-gradient(#6f2ea5c9, #570966);
+}
+#hk:hover {
+    background-image: linear-gradient(#69646dc9, #171618);
+}
+
+#bp:hover {
+    background-image: linear-gradient(#a18a1fc9, #524608);
+}
+
+#bs:hover {
+    background-image: linear-gradient(#6f2ea5c9, #570966);
+}
+
+#ori:hover {
+    background-image: linear-gradient(#4bcdee93, #053b6dd3);
+}
+
+#celeste:hover {
+    background-image: linear-gradient(#eb4444c9, #08551f);
+}
+
+#elden:hover {
+    background-image: linear-gradient(#237c62c9, #073628c9);
+}
+
+#cup:hover {
+    background-image: linear-gradient(#ecee77da, #7a791b65);
+}
+
+#dead:hover {
+    background-image: linear-gradient(#6f2ea5c9, #220966);
+}
+
+
+/*Configuração de cada card*/
+.card .valorant {
+    width: 128%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('valorant.jpg');
+    background-size: cover;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .csgo {
+    width: 128%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('csgo.jpg');
+    background-size: cover;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .cod {
+    width: 128%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('COD.jpg');
+    background-size: cover;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .overwatch {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('Overwatch.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .lol {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('lol.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .dota {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('dota.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .smite {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('smite.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .hots {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('hots.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .hk {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('hk.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .bp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('bp.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .bs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('bs.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .ori {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('ori.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .celeste {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('celeste.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .elden {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('elden.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .cup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('cup.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.card .dead {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('dead.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+/*Configuracao da descida*/
+.card .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card:hover .content {
+    height: 350px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*Fonte do titulo*/
+.card .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*Fonte da descricao*/
+.card .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+/*Rotacao e tamanho da flecha*/
+.card .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card:hover .arrow {
+    transform: rotate(0);
+}
+
+.card .arrow span {
+    font-size: 24px;
+}
